@@ -9,7 +9,7 @@
     "start": "vercel dev"
   },
   "dependencies": {
-    "@vercel/node-canvas": "^1.0.0"
+    "canvas": "^2.11.2"
   },
   "engines": {
     "node": "22.x"
