@@ -9,7 +9,6 @@
     "start": "vercel dev"
   },
   "dependencies": {
-    "@napi-rs/canvas": "^0.1.53"
   },
   "engines": {
     "node": "22.x"
