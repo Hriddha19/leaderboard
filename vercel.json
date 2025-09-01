@@ -9,5 +9,7 @@
       "source": "/:type/:data",
       "destination": "/api/:type/:data"
     }
-  ]
+  ],
+  "buildCommand": "mkdir -p public && cp index.html public/",
+  "outputDirectory": "public"
 }
