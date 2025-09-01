@@ -1,5 +1,5 @@
 // api/[...params].js
-import { createCanvas } from '@vercel/node-canvas';
+import { createCanvas } from 'canvas';
 
 export default async function handler(req, res) {
   try {
