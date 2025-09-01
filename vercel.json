@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/[...params].js": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/:type/:data",
+      "destination": "/api/:type/:data"
+    }
+  ]
+}
